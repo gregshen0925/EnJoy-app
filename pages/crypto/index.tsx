@@ -13,7 +13,7 @@ const Crypto: NextPage = (props: Props) => {
     const oneMin = 60000;
     const oneHour = 60 * oneMin;
     const oneDay = 24 * oneHour;
-    const timeOffset = 11 * oneHour;
+    const timeOffset = 13 * oneHour;
     const today1900 = Math.ceil((new Date().valueOf() - timeOffset) / oneDay) * oneDay + timeOffset
 
     return (
